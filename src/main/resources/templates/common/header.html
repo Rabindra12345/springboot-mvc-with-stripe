@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="common-header">
+    <title>RAbindra's First Thymeleaf Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" rel="stylesheet"  media="screen"/>
+
+    <!-- Custom fonts for this template -->
+    <link type="text/css" th:href="@{/css/styles.css}" rel="stylesheet" media="screen" />
+</head>
+    <div th:fragment="before-body-scripts">
+        <script th:src="@{/webjars/jquery/3.7.1/jquery.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.min.js}" rel="stylesheet"></script>
+    </div>
+ </html>
