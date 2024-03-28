@@ -1,4 +1,4 @@
-package com.rabindra.springmvcthymeleaf.web.controllers.advices;
+package com.rabindra.springmvcthymeleaf.web;
 
 
 import org.springframework.stereotype.Controller;
