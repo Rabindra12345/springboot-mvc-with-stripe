@@ -1,4 +1,4 @@
-package com.rabindra.springmvcthymeleaf.web.controllers.advices;
+package com.rabindra.springmvcthymeleaf.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CopyController {
 
     @RequestMapping("/about")
-    public String about() {
+    public String about()
+    {
         return "copy/about";
     }
 }

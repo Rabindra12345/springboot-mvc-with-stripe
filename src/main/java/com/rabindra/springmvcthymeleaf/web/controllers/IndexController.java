@@ -1,4 +1,4 @@
-package com.rabindra.springmvcthymeleaf.web;
+package com.rabindra.springmvcthymeleaf.web.controllers;
 
 
 import org.slf4j.Logger;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.Date;
 
 @Controller
-public class HelloWorldController {
+public class IndexController {
     
-    private static final Logger LOG = LoggerFactory.getLogger(HelloWorldController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(IndexController.class);
 
     @GetMapping("/")
     public String getHomePage() {
